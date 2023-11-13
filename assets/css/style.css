@@ -9,10 +9,11 @@
 }
 
 body {
+
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    color: #B5C8B5
+    color: #102010
 }
 
 /* Headings and Logo */
@@ -27,29 +28,25 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 300%;
-    text-decoration: none;
-
+    font-size: 280%;
 }
 
-/* Navigation Links */
+/* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    margin: 30px;
-
 }
 
-#menu2 {
-    font-size: larger;
+#menu,
+#logo {
+    line-height: 75px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    white-space: none;
 }
 
 #menu a {
@@ -58,20 +55,51 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #1b1717;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#menu,
-#logo {
+/* hero image */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
 
-    line-height: 75px;
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/planet-earthfirst.avif') no-repeat center center;
+
+    /* Animates zoom effect on loading the page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: blur(2px);
+}
+
+
+/* Creates the zoom effect for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
 }
 
 /* Hide the sublinks by default */
+
 li ul {
     display: none;
 }
