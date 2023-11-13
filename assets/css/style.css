@@ -70,15 +70,11 @@ h3 {
 
 /* hero image and cover text */
 
-#didyouknow > h1  {
-   text-align: center;
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
-
 #earth-heading {
     position: relative;
     display: inline-block;
+    color: #102010;
+
 }
 
 #earth-pic {
@@ -134,7 +130,7 @@ h3 {
 #hero-img {
     height: 600px;
     width: 100%;
-    background: url('../images/planet-earthfirst.avif') no-repeat center center;
+    background: url('../images/photo-1534294228306-bd54eb9a7ba8\ \(1\).avif') no-repeat center center;
 
     /* Animates zoom effect on loading the page */
 
@@ -143,18 +139,22 @@ h3 {
     animation-fill-mode: forwards;
     background-size: cover;
     transition: transform 5s, filter 3s ease-in-out;
-    filter: blur(2px);
+    filter: blur(0px);
 }
 
 
 /* Creates the zoom effect for hero image */
 
 @keyframes hero-zoom {
-    from {
+    0% {
         transform: scale(1);
     }
 
-    to {
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
         transform: scale(1.1);
     }
 
@@ -179,11 +179,18 @@ li:hover ul {
     height: 600px;
 }
 
+#dyk-heading {
+    text-align: center;
+    margin: 25px;
+    font-size: 250%;
+    padding-bottom: 25px;
+}
+
 #left-txt-dyk {
     padding-top: 30px;
     width: 33%;
     float: left;
-   
+
 
 }
 
@@ -191,36 +198,51 @@ li:hover ul {
     padding-top: 30px;
     width: 33%;
     float: right;
-  
+
 }
 
 #mid-img-dyk {
     width: 33%;
     margin: 0 auto;
- 
+
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+    max-width: 520px;
+    max-height: 420px;
 }
 
 #mid-dyk-pic {
-    width: 520px;
+    width: 520px; 
     height: 420px;
     border-radius: 5%;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
-    transition: transform 1s ease-in-out; /* Adds a smooth transition effect */
+    margin: 0 auto;
+    box-shadow: 5 5 20px rgba(0, 0, 0, 0.8);
+    /* Adds a shadow effect */
+    transition: transform 2s ease-in-out, width 2s ease-in-out, heigt 2s ease-in-out;
+    /* Adds a smooth transition effect */
+  
 }
+
 #mid-dyk-pic:hover {
-    transform: scale(1.1) rotate(360deg);
+    transform: scale(2) rotate(360deg);
+    width: 1408px;
+    height: 834x;
 }
 
 #mid-dyk-pic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
 
+}
 
 .left-dyk-heading {
     width: 60%;
@@ -231,7 +253,7 @@ li:hover ul {
 }
 
 .right-dyk-heading h2 {
-    text-align:right ;
+    text-align: right;
 }
 
 .right-dyk-heading {
@@ -241,9 +263,12 @@ li:hover ul {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-dyk-heading p {
-    text-align: right ;g
+    text-align: right;
+
 }
+
 hr {
     border-top: 1px solid #6C896C;
     width: 100%;
