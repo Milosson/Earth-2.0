@@ -183,7 +183,7 @@ li:hover ul {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #ffffff;
+   
 
 }
 
@@ -191,13 +191,13 @@ li:hover ul {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: #ffffff;
+  
 }
 
 #mid-img-dyk {
     width: 33%;
     margin: 0 auto;
-    background-color: #ffffff;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,7 +206,7 @@ li:hover ul {
 #mid-dyk-pic {
     width: 520px;
     height: 420px;
-    border-radius: 2%;
+    border-radius: 5%;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
     transition: transform 1s ease-in-out; /* Adds a smooth transition effect */
@@ -230,6 +230,10 @@ li:hover ul {
     margin-bottom: 50px;
 }
 
+.right-dyk-heading h2 {
+    text-align:right ;
+}
+
 .right-dyk-heading {
     width: 60%;
     float: left;
@@ -237,7 +241,9 @@ li:hover ul {
     clear: both;
     margin-bottom: 50px;
 }
-
+.right-dyk-heading p {
+    text-align: right ;g
+}
 hr {
     border-top: 1px solid #6C896C;
     width: 100%;
