@@ -1,0 +1,53 @@
+[33mcommit 157335c20284d6d3e7363e4ca02ab8ac14128aed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 15:02:03 2023 +0000
+
+    Add DidYouKnow main structure
+
+[33mcommit 689a255203c58bde54bdbeeea75d29c7f3f5a5c3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 13:50:04 2023 +0000
+
+    Add cover text and style
+
+[33mcommit 99052b12525f9121fa79f14bd0b37410ddf2a03c[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 13:39:19 2023 +0000
+
+    Add dropdown menu sublinks, Add hero image with styles
+
+[33mcommit e6ff2e2e3f167ec335f6c6fa499435b3bcd02357[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 09:57:34 2023 +0000
+
+    Style navigation links
+
+[33mcommit 24cf9062f21290f2de91275c4d1b19c5cc962fc8[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 09:26:55 2023 +0000
+
+    Add logo style and menu sublink hover function, structure for menu list
+
+[33mcommit fb90b784a3d6deded06655f799a14edcef5062b6[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 08:59:47 2023 +0000
+
+    Add google fonts and removed default margins, padding and borders
+
+[33mcommit 3ff358d4fe60ef091f34dfcc567388b9396d78ec[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 08:52:01 2023 +0000
+
+    Add nav bar
+
+[33mcommit 860f8fb8a1297d52a58185154649fe225c5c08e2[m
+Author: Milosson Razzazzon <miladrazzaz@gmail.com>
+Date:   Mon Nov 13 08:40:14 2023 +0000
+
+    Add basic html structure and meta tags
+
+[33mcommit b69f72f1339aeb5eebeb376c6df1aa40ca4f622c[m
+Author: Milosson <148342622+Milosson@users.noreply.github.com>
+Date:   Mon Nov 13 09:23:03 2023 +0100
+
+    Initial commit

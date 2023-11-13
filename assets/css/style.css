@@ -70,6 +70,12 @@ h3 {
 
 /* hero image and cover text */
 
+#didyouknow > h1  {
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
 #earth-heading {
     position: relative;
     display: inline-block;
@@ -166,34 +172,78 @@ li:hover ul {
 }
 
 
-/* Did you know Section */
+/* DID YOU KNOW Section */
 
 #didyouknow {
 
     height: 600px;
 }
 
-#text-left-dyk {
+#left-txt-dyk {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: aqua;
+    background-color: #ffffff;
 
 }
 
-#text-right-dyk {
+#right-txt-dyk {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: brown;
+    background-color: #ffffff;
 }
 
-#img-mid-dyk {
+#mid-img-dyk {
     width: 33%;
     margin: 0 auto;
-background-color: greenyellow;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#mid-dyk-pic {
+    width: 520px;
+    height: 420px;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+    transition: transform 1s ease-in-out; /* Adds a smooth transition effect */
+}
+#mid-dyk-pic:hover {
+    transform: scale(1.1) rotate(360deg);
+}
+
+#mid-dyk-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.left-dyk-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-dyk-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #6C896C;
+    width: 100%;
+    margin: 5px 0;
+
+}
 
 /* Footer Style temp. */
 
