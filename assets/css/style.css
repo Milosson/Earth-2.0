@@ -12,4 +12,51 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+    color: #B5C8B5
+}
+
+/* Headings and Logo */
+h1,
+h2,
+h3 {
+    font-family: 'Robot slab', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6C896C;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* Navigation Links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    white-space: none;
+}
+
+/* Hide the sublinks by default */
+li ul {
+    display: none;
+}
+
+/* Display the sublinks when hovering over the main link */
+li:hover ul {
+    display: block;
+}
+
+footer {
+    letter-spacing: 4px;
+    font-style: bold;
+    color: chocolate;
+    font-size: medium;
 }
