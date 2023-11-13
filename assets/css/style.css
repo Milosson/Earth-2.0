@@ -13,7 +13,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    color: #102010
+    color: #102010;
+
+     
+    
 }
 
 /* Headings and Logo */
@@ -28,13 +31,26 @@ h3 {
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+
 #logo {
+    animation: 1s ease-out 0s 1 slideInLeft;
+
     float: left;
     font-size: 280%;
     margin-left: 30px;
 
-}
+    display: inline-block;
+    text-decoration: none;
 
+}
+@keyframes slideInLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+   }
 /* navigation links */
 
 #menu {
@@ -184,6 +200,7 @@ li:hover ul {
     margin: 25px;
     font-size: 250%;
     padding-bottom: 25px;
+  
 }
 
 #left-txt-dyk {
@@ -216,9 +233,9 @@ li:hover ul {
 }
 
 #mid-dyk-pic {
-    width: 520px; 
+    width: 420px; 
     height: 420px;
-    border-radius: 5%;
+    border-radius: 50%;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
