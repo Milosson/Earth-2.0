@@ -28,6 +28,8 @@ h3 {
 #logo {
     float: left;
     font-size: 300%;
+    text-decoration: none;
+
 }
 
 /* Navigation Links */
@@ -35,6 +37,12 @@ h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    margin: 30px;
+
+}
+
+#menu2 {
+    font-size: larger;
 }
 
 #menu li {
@@ -42,6 +50,25 @@ h3 {
     list-style-type: none;
     margin-right: 30px;
     white-space: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu,
+#logo {
+
+    line-height: 75px;
 }
 
 /* Hide the sublinks by default */
@@ -54,9 +81,12 @@ li:hover ul {
     display: block;
 }
 
+/* Footer Style temp. */
+
 footer {
     letter-spacing: 4px;
     font-style: bold;
     color: chocolate;
     font-size: medium;
+    margin: 20px;
 }
