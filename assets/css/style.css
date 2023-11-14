@@ -304,9 +304,15 @@ hr {
 
 /* THUMB NAIL SECTION */
 
-#thumb-outer {
+#thumb-bg {
 
     background-color: #FCFCF5;
+    background-image: url('../images/louis-maniquet-71QXQUSC_Do-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
 }
 
 /* Footer Style temp. */
