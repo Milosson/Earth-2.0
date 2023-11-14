@@ -19,18 +19,18 @@ body {
 }
 
 h2 > i {
-    color:#D3AF93;
+    color:#0499fc;
    
 }
 
-/* Headings and Logo */
+/* Headings and Logo D3AF93*/
 h1,
 h2,
-h3 {
+h4 {
     font-family: 'Robot slab', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #D3AF93;
+    color: #365577;
 
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -147,7 +147,7 @@ h3 {
 
     position: absolute;
 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 1);
 }
 
 #hero-img {
@@ -158,11 +158,12 @@ h3 {
     /* Animates zoom effect on loading the page */
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-fill-mode: forwards;
     background-size: cover;
-    transition: transform 5s, filter 3s ease-in-out;
+    transition: transform 15s, filter 10s ease-in-out;
     filter: blur(0px);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
 }
 
 
@@ -313,6 +314,20 @@ hr {
     background-position: center;
     overflow: hidden;
     width: 100%;
+}
+
+
+#thumb-bg div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+
 }
 
 /* Footer Style temp. */
