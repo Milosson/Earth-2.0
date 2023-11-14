@@ -18,9 +18,9 @@ body {
 
 }
 
-h2 > i {
-    color:#0499fc;
-   
+h2>i {
+    color: #0499fc;
+
 }
 
 /* Headings and Logo D3AF93*/
@@ -250,7 +250,7 @@ li:hover ul {
     border-width: 1px;
     overflow: hidden;
     margin: 0 auto;
-    box-shadow: 5 5 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
     /* Adds a shadow effect */
     transition: transform 2s ease-in-out, width 2s ease-in-out, heigt 2s ease-in-out;
     /* Adds a smooth transition effect */
@@ -314,12 +314,13 @@ hr {
     background-position: center;
     overflow: hidden;
     width: 100%;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
 }
 
 
 #thumb-bg div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
     width: 25%;
     height: 300px;
     float: left;
@@ -327,6 +328,7 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
 
 }
 
@@ -335,7 +337,26 @@ hr {
 footer {
     letter-spacing: 4px;
     font-style: bold;
-    color: chocolate;
+    color: rgba(0, 0, 0, 1);
     font-size: medium;
     margin: 20px;
+
+}
+
+
+#footer-header {
+    box-sizing: border-box;
+    width: 50%;
+    border: solid #0f31f3 3px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
+}
+
+#footer-header i {
+    font-size: 22px;
 }
