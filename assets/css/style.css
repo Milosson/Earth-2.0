@@ -15,8 +15,12 @@ body {
     font-weight: 300;
     color: #102010;
 
-     
-    
+
+}
+
+h2 > i {
+    color:#D3AF93;
+   
 }
 
 /* Headings and Logo */
@@ -26,7 +30,7 @@ h3 {
     font-family: 'Robot slab', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #6C896C;
+    color: #D3AF93;
 
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -43,14 +47,17 @@ h3 {
     text-decoration: none;
 
 }
+
 @keyframes slideInLeft {
-    0%{
+    0% {
         transform: translateX(-100%);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
-   }
+}
+
 /* navigation links */
 
 #menu {
@@ -89,7 +96,7 @@ h3 {
 #earth-heading {
     position: relative;
     display: inline-block;
-    color: #102010;
+    color: #c9ac38;
 
 }
 
@@ -117,7 +124,7 @@ h3 {
 
 #cover-text,
 #cover-text h2 {
-    color: #ffffff;
+    color: #102010;
 }
 
 #cover-text {
@@ -193,6 +200,7 @@ li:hover ul {
 #didyouknow {
 
     height: 600px;
+    background-color: #FCFCF5;
 }
 
 #dyk-heading {
@@ -200,7 +208,7 @@ li:hover ul {
     margin: 25px;
     font-size: 250%;
     padding-bottom: 25px;
-  
+
 }
 
 #left-txt-dyk {
@@ -233,7 +241,7 @@ li:hover ul {
 }
 
 #mid-dyk-pic {
-    width: 420px; 
+    width: 420px;
     height: 420px;
     border-radius: 50%;
     border-style: solid;
@@ -245,7 +253,7 @@ li:hover ul {
     /* Adds a shadow effect */
     transition: transform 2s ease-in-out, width 2s ease-in-out, heigt 2s ease-in-out;
     /* Adds a smooth transition effect */
-  
+
 }
 
 #mid-dyk-pic:hover {
@@ -291,6 +299,14 @@ hr {
     width: 100%;
     margin: 5px 0;
 
+}
+
+
+/* THUMB NAIL SECTION */
+
+#thumb-outer {
+
+    background-color: #FCFCF5;
 }
 
 /* Footer Style temp. */
