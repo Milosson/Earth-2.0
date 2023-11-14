@@ -358,6 +358,7 @@ footer {
     font-size: medium;
     margin: 20px;
     padding-top: 50px;
+  
 
 }
 
@@ -504,4 +505,18 @@ footer {
 .signuptitle {
    margin: 25px 50px 75px 100px;
 
+}
+
+/* EXPLORE PAGE Pictures  */
+
+#explore-photos {
+
+    clear: both;
+    line-height: 2;
+    column-count: 3;
+    column-gap: inherit;
+}
+
+#explore-photos > img {
+    width: 100%;
 }
