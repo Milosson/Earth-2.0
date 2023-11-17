@@ -520,3 +520,48 @@ footer {
 #explore-photos > img {
     width: 100%;
 }
+
+/* Media queries */
+
+
+/* For larger to medium screens size from 1200px wide an down */
+@media screen and (max-width: 1200px) {
+
+#didyouknow  {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+
+#dyk-heading {
+    padding: 30px 0;
+    margin: 0;
+}
+
+#left-txt-dyk, #right-txt-dyk {
+
+    width: 100%;
+    float:  left;
+    padding: 0;
+}
+
+#mid-img-dyk {
+
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#hr {
+
+    display: none;
+}
+
+.signupform {
+    justify-content: right;
+}
+
+
+}
