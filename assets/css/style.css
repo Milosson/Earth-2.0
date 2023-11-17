@@ -524,7 +524,7 @@ footer {
 /* Media queries */
 
 
-/* For larger to medium screens size from 1200px wide an down */
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
 #didyouknow  {
@@ -552,6 +552,15 @@ footer {
     width: 100%;
     float: left;
     padding: 0;
+    margin: 0 auto;
+
+}
+
+#thumb-bg {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
 }
 
 #hr {
@@ -560,8 +569,59 @@ footer {
 }
 
 .signupform {
-    justify-content: right;
+    justify-content: center;
+  
 }
 
+    }
+
+
+/* For medium screen size 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+  #menu  {
+    
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+    #didyouknow {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .left-dyk-heading, .right-dyk-heading {
+        width: inherit;
+}
+
+.left-dyk-heading h2, .right-dyk-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+.left-dyk-heading p, .right-dyk-heading p {
+text-align: center;
+padding: 0 20px;
+}
+
+#explore-photos {
+
+    column-count: 3;
+}
+
+@media screen and (max-width: 800px) {
+
+    #explore-photos {
+        column-count: 2;
+    }
+}
 
 }
